@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang= "en">
+   <head>
+      <meta charset="utf-8" />
+      <link rel="stylesheet" href="style/style.css">
+      <titleGit Cheatsheet</title>
+      <!-- gitRef.html- Git command referance 
+         Written by: Heather Kooiker
+         CSC 245 Project: Git
+         Written: 7/23/2017
+         Revised:7/25/2017
+         -->
+	
+	</head>
+	<body>
+	
+	<h1>Git Referance Sheet</h1>
+	
+	   <h2>Git Command Line and Directories</h2>
+	      <p><strong>$ cd <filename></strong> Navigates to the desired drive.</p>
+		  <p><strong>$ cd "directory location"</strong> Navigates to desired directory. </p>
+		  <p><strong>$ git ls-files</strong>Lists all files in the repository, including staged files.</p>
+		  <br>
+		  
+	   <h2>Initializing a local Git Repository</h2>
+	      <p><strong>$ git init</strong> Create a new local repository.</p>
+		  <br>
+	   
+	   <h2>Getting recent code from GitHub</h2> 
+		  <p><strong> $ git pull </strong> Pulls the latest version of code from another repository. </p>
+		  <br>
+	
+	   <h2>Initializing local Git repository from GitHub</h2>
+	      <p><strong>$ git clone https://github.com/YOUR-USERNAME/YOUR_REPOSITORY</strong> Clones the GitHub repository to a local machine. 
+		  **Make sure the command is in the drive you wish repository to be located in.</p>
+		  <br>
+	   
+	   <h2>Adding and Commit Changes to Respository</h2>
+	      <p><strong>$ git add .</strong> Get everything ready to commit.</p>
+		  <p><strong>$ git commit -m "Message"</strong> Commit changes.</p>
+		  <br>
+	
+	   <h2>Checking Repository Status</h2>
+	      <p><strong>$ git status</strong> Checking the current state of the repository.</p>
+		  <br>
+	
+	   <h2>Saving Changes to GitHub Repository</h2>
+	      <p><strong>$ git add *</strong> Adds files to staging.</p>
+		  <p><strong>$ git commit -m "Enter Message"</strong>Commits all changes to directory.</p>
+		  <p><strong>$ git push</strong> Pushes most recent local copy to GitHub</p>
+		  <br>
+	
+	   <h2>Viewing Commits to a Repository</h2>
+	   <p><strong>$ git log</strong> Lists all the commits made in the repository in reverse chronological order.</p>
+	   <br>
+	
+	   <h2>Making a Temporary Branch from Master Repository</h2>
+	   <p><strong>$ git branch -av</strong> Lists all exsisting braches.</p>
+	   <p><strong>$ git branch <branchname> </strong> Creates a new branch.</p>
+	   <br>
+	
+	   <h2>Merging Branch into Master</h2>
+	      <p><strong>$ git checkout master</strong> Switches command to master branch.</p>
+		  <p><strong>$ git merge <branch> </strong> Merges changes from another branch.</p>
+		  
+	<br /><br />
+	<a href ="https://github.com/KooikerH/kooikerCMS"> Heather Kooiker's GitHub Repository </a>
+	
+</body>
+</html>
+	
